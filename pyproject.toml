@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "esport"
+version = "0.1.0"
+description = ""
+authors = ["Lwin Maung Maung <lwinmaungmaung.ytu@gmail.com>"]
+readme = "README.md"
+packages = [{include = "esport", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "==7.4.*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
